@@ -1,49 +1,132 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.7.6">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1223" dy="898" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="989" dy="509" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
-        <mxCell id="WIyWlLk6GJQsqaUBKTNV-2" value="" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WIyWlLk6GJQsqaUBKTNV-3" target="WIyWlLk6GJQsqaUBKTNV-6" edge="1">
+        <mxCell id="mTkOEDpxK-kG3nHlIUsP-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="mTkOEDpxK-kG3nHlIUsP-0" target="mTkOEDpxK-kG3nHlIUsP-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="590" y="250" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mTkOEDpxK-kG3nHlIUsP-18" value="５．app/http/alsok-Controller.blade.php&lt;div&gt;っていうファイルだよ&lt;/div&gt;&lt;div&gt;呼び出し方はshow infoだよ&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="mTkOEDpxK-kG3nHlIUsP-17">
+          <mxGeometry x="-0.1546" y="-1" relative="1" as="geometry">
+            <mxPoint x="-17" y="31" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mTkOEDpxK-kG3nHlIUsP-0" value="Rootファイル&lt;div&gt;役割：URLなどを見つけてそれぞれの場所におくる&lt;/div&gt;&lt;div&gt;alsok/info = resorce/view/alsok-info.blade.php&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;alsok-controller&lt;/div&gt;&lt;div&gt;名前 = 呼び出し名&lt;/div&gt;&lt;div&gt;info = function show info&lt;/div&gt;&lt;div&gt;buy(個数) =&amp;nbsp; function buy(個数)&lt;/div&gt;&lt;div&gt;pdf(URL) = show PDF(URL)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="590" y="160" width="210" height="370" as="geometry" />
+        </mxCell>
+        <mxCell id="mTkOEDpxK-kG3nHlIUsP-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.001;entryY=0.056;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="mTkOEDpxK-kG3nHlIUsP-1" target="mTkOEDpxK-kG3nHlIUsP-0">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="550" y="180" />
+              <mxPoint x="590" y="181" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mTkOEDpxK-kG3nHlIUsP-16" value="４．alsok-Controllerの&lt;div&gt;infoっていう&lt;/div&gt;&lt;div&gt;functionってどこ？&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="mTkOEDpxK-kG3nHlIUsP-15">
+          <mxGeometry x="-0.1821" relative="1" as="geometry">
+            <mxPoint x="28" y="-20" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mTkOEDpxK-kG3nHlIUsP-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="mTkOEDpxK-kG3nHlIUsP-1" target="mTkOEDpxK-kG3nHlIUsP-14">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="WIyWlLk6GJQsqaUBKTNV-3" value="Lamp doesn&#39;t work" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="160" y="80" width="120" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="WIyWlLk6GJQsqaUBKTNV-4" value="Yes" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WIyWlLk6GJQsqaUBKTNV-6" target="WIyWlLk6GJQsqaUBKTNV-10" edge="1">
-          <mxGeometry y="20" relative="1" as="geometry">
-            <mxPoint as="offset" />
+        <mxCell id="mTkOEDpxK-kG3nHlIUsP-20" value="６．alsok-Controller.blade.phpさん&lt;div&gt;show infoのデータください&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="mTkOEDpxK-kG3nHlIUsP-19">
+          <mxGeometry x="-0.1119" relative="1" as="geometry">
+            <mxPoint x="80" y="20" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="WIyWlLk6GJQsqaUBKTNV-5" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WIyWlLk6GJQsqaUBKTNV-6" target="WIyWlLk6GJQsqaUBKTNV-7" edge="1">
-          <mxGeometry y="10" relative="1" as="geometry">
-            <mxPoint as="offset" />
+        <mxCell id="mTkOEDpxK-kG3nHlIUsP-1" value="&lt;div&gt;alsok-info.blade.php&lt;/div&gt;viewファイル&lt;div&gt;画面に表示される部分&lt;/div&gt;&lt;div&gt;DBに保存されてる&lt;/div&gt;&lt;div&gt;インフォのデータがほしい&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="230" y="160" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="mTkOEDpxK-kG3nHlIUsP-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="mTkOEDpxK-kG3nHlIUsP-2" target="mTkOEDpxK-kG3nHlIUsP-0">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="479.9999999999998" y="30" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="747" y="20" />
+            </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="WIyWlLk6GJQsqaUBKTNV-6" value="Lamp&lt;br&gt;plugged in?" style="rhombus;whiteSpace=wrap;html=1;shadow=0;fontFamily=Helvetica;fontSize=12;align=center;strokeWidth=1;spacing=6;spacingTop=-4;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="170" y="170" width="100" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="WIyWlLk6GJQsqaUBKTNV-7" value="Plug in lamp" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="320" y="190" width="120" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="WIyWlLk6GJQsqaUBKTNV-8" value="No" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WIyWlLk6GJQsqaUBKTNV-10" target="WIyWlLk6GJQsqaUBKTNV-11" edge="1">
-          <mxGeometry x="0.3333" y="20" relative="1" as="geometry">
-            <mxPoint as="offset" />
+        <mxCell id="mTkOEDpxK-kG3nHlIUsP-4" value="１．このURLはどこのview&lt;div&gt;ファイルに行くの？&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="mTkOEDpxK-kG3nHlIUsP-3">
+          <mxGeometry x="0.012" relative="1" as="geometry">
+            <mxPoint x="-51" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="WIyWlLk6GJQsqaUBKTNV-9" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WIyWlLk6GJQsqaUBKTNV-10" target="WIyWlLk6GJQsqaUBKTNV-12" edge="1">
-          <mxGeometry y="10" relative="1" as="geometry">
-            <mxPoint as="offset" />
+        <mxCell id="mTkOEDpxK-kG3nHlIUsP-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="mTkOEDpxK-kG3nHlIUsP-2" target="mTkOEDpxK-kG3nHlIUsP-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mTkOEDpxK-kG3nHlIUsP-12" value="３．alsok-info.blade.php&lt;div&gt;を見に行くよ！&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="mTkOEDpxK-kG3nHlIUsP-10">
+          <mxGeometry x="-0.2078" y="-2" relative="1" as="geometry">
+            <mxPoint x="52" y="8" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="WIyWlLk6GJQsqaUBKTNV-10" value="Bulb&lt;br&gt;burned out?" style="rhombus;whiteSpace=wrap;html=1;shadow=0;fontFamily=Helvetica;fontSize=12;align=center;strokeWidth=1;spacing=6;spacingTop=-4;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="170" y="290" width="100" height="80" as="geometry" />
+        <mxCell id="mTkOEDpxK-kG3nHlIUsP-2" value="URLに&lt;div&gt;alsok/info&lt;/div&gt;&lt;div&gt;が入力された&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="230" width="160" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="WIyWlLk6GJQsqaUBKTNV-11" value="Repair Lamp" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="160" y="430" width="120" height="40" as="geometry" />
+        <mxCell id="mTkOEDpxK-kG3nHlIUsP-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.005;entryY=0.629;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="mTkOEDpxK-kG3nHlIUsP-0" target="mTkOEDpxK-kG3nHlIUsP-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="695" y="50" />
+            </Array>
+          </mxGeometry>
         </mxCell>
-        <mxCell id="WIyWlLk6GJQsqaUBKTNV-12" value="Replace Bulb" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="320" y="310" width="120" height="40" as="geometry" />
+        <mxCell id="mTkOEDpxK-kG3nHlIUsP-7" value="２．resorces/view/alsok-info.blade.php&lt;div&gt;っていうファイルだよ&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="mTkOEDpxK-kG3nHlIUsP-6">
+          <mxGeometry x="0.3864" y="3" relative="1" as="geometry">
+            <mxPoint x="18" y="-3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mTkOEDpxK-kG3nHlIUsP-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="mTkOEDpxK-kG3nHlIUsP-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="310" y="620" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="310" y="610" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mTkOEDpxK-kG3nHlIUsP-26" value="７．function show info&lt;div&gt;には会社の情報をDBから&lt;/div&gt;&lt;div&gt;持ってこないといけないから&lt;/div&gt;&lt;div&gt;DBを参照しに行こう&lt;/div&gt;&lt;div&gt;よびたいDBは&lt;/div&gt;&lt;div&gt;infoTable&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="mTkOEDpxK-kG3nHlIUsP-25">
+          <mxGeometry x="-0.7448" relative="1" as="geometry">
+            <mxPoint x="60" y="53" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mTkOEDpxK-kG3nHlIUsP-14" value="&lt;div&gt;alsok-Controller.blade.php&lt;/div&gt;コントローラー&lt;div&gt;すべてのfunctionなどを持っている体&lt;/div&gt;&lt;div&gt;購入：buy(個数)&lt;/div&gt;&lt;div&gt;売却：sell(個数)&lt;/div&gt;&lt;div&gt;PDF表示：show PDF(URL)&lt;/div&gt;&lt;div&gt;会社情報：show info&lt;/div&gt;&lt;div&gt;などなど&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="205" y="370" width="210" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="mTkOEDpxK-kG3nHlIUsP-21" value="function show info&lt;div&gt;DBから&lt;/div&gt;&lt;div&gt;会社名&lt;/div&gt;&lt;div&gt;会社の住所&lt;/div&gt;&lt;div&gt;資本金&lt;/div&gt;&lt;div&gt;事業内容&lt;/div&gt;&lt;div&gt;を返すプログラムが&lt;/div&gt;&lt;div&gt;alsok-Controllerに&lt;/div&gt;&lt;div&gt;入ってる&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="20" y="310" width="140" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="mTkOEDpxK-kG3nHlIUsP-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.015;entryY=0.175;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="mTkOEDpxK-kG3nHlIUsP-21" target="mTkOEDpxK-kG3nHlIUsP-14">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="208" y="390" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mTkOEDpxK-kG3nHlIUsP-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="mTkOEDpxK-kG3nHlIUsP-27" target="mTkOEDpxK-kG3nHlIUsP-30">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="430" y="680" />
+              <mxPoint x="430" y="680" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mTkOEDpxK-kG3nHlIUsP-27" value="いろんなDBが入ってる" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="225" y="620" width="175" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="mTkOEDpxK-kG3nHlIUsP-28" value="infoTable" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="440" y="620" width="300" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="mTkOEDpxK-kG3nHlIUsP-29" value="会社名：青森共同計算センター" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="mTkOEDpxK-kG3nHlIUsP-28">
+          <mxGeometry y="30" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mTkOEDpxK-kG3nHlIUsP-30" value="Item 2" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="mTkOEDpxK-kG3nHlIUsP-28">
+          <mxGeometry y="60" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mTkOEDpxK-kG3nHlIUsP-31" value="Item 3" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="mTkOEDpxK-kG3nHlIUsP-28">
+          <mxGeometry y="90" width="300" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
