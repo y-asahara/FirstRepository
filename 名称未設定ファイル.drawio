@@ -89,7 +89,7 @@
         </mxCell>
         <mxCell id="mTkOEDpxK-kG3nHlIUsP-26" value="７．function show info&lt;div&gt;には会社の情報をDBから&lt;/div&gt;&lt;div&gt;持ってこないといけないから&lt;/div&gt;&lt;div&gt;DBを参照しに行こう&lt;/div&gt;&lt;div&gt;よびたいDBは&lt;/div&gt;&lt;div&gt;infoTable&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="mTkOEDpxK-kG3nHlIUsP-25">
           <mxGeometry x="-0.7448" relative="1" as="geometry">
-            <mxPoint x="60" y="53" as="offset" />
+            <mxPoint x="70" y="53" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="mTkOEDpxK-kG3nHlIUsP-14" value="&lt;div&gt;alsok-Controller.blade.php&lt;/div&gt;コントローラー&lt;div&gt;すべてのfunctionなどを持っている体&lt;/div&gt;&lt;div&gt;購入：buy(個数)&lt;/div&gt;&lt;div&gt;売却：sell(個数)&lt;/div&gt;&lt;div&gt;PDF表示：show PDF(URL)&lt;/div&gt;&lt;div&gt;会社情報：show info&lt;/div&gt;&lt;div&gt;などなど&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
@@ -117,16 +117,38 @@
           <mxGeometry x="225" y="620" width="175" height="120" as="geometry" />
         </mxCell>
         <mxCell id="mTkOEDpxK-kG3nHlIUsP-28" value="infoTable" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="440" y="620" width="300" height="120" as="geometry" />
+          <mxGeometry x="440" y="600" width="180" height="150" as="geometry" />
         </mxCell>
         <mxCell id="mTkOEDpxK-kG3nHlIUsP-29" value="会社名：青森共同計算センター" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="mTkOEDpxK-kG3nHlIUsP-28">
-          <mxGeometry y="30" width="300" height="30" as="geometry" />
+          <mxGeometry y="30" width="180" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="mTkOEDpxK-kG3nHlIUsP-30" value="Item 2" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="mTkOEDpxK-kG3nHlIUsP-28">
-          <mxGeometry y="60" width="300" height="30" as="geometry" />
+        <mxCell id="mTkOEDpxK-kG3nHlIUsP-30" value="住所：問屋町" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="mTkOEDpxK-kG3nHlIUsP-28">
+          <mxGeometry y="60" width="180" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="mTkOEDpxK-kG3nHlIUsP-31" value="Item 3" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="mTkOEDpxK-kG3nHlIUsP-28">
-          <mxGeometry y="90" width="300" height="30" as="geometry" />
+        <mxCell id="mTkOEDpxK-kG3nHlIUsP-31" value="資本金：５０００万" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="mTkOEDpxK-kG3nHlIUsP-28">
+          <mxGeometry y="90" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mTkOEDpxK-kG3nHlIUsP-40" value="事業内容：いろいろ" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="mTkOEDpxK-kG3nHlIUsP-28">
+          <mxGeometry y="120" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mTkOEDpxK-kG3nHlIUsP-41" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" target="mTkOEDpxK-kG3nHlIUsP-14">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="258" y="620" as="sourcePoint" />
+            <mxPoint x="310" y="570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mTkOEDpxK-kG3nHlIUsP-42" value="８．infoTableの&lt;div&gt;内容を返すよ&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="mTkOEDpxK-kG3nHlIUsP-41">
+          <mxGeometry x="-0.1507" y="-1" relative="1" as="geometry">
+            <mxPoint x="-29" y="-15" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mTkOEDpxK-kG3nHlIUsP-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.17;entryY=0.994;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="mTkOEDpxK-kG3nHlIUsP-14" target="mTkOEDpxK-kG3nHlIUsP-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mTkOEDpxK-kG3nHlIUsP-44" value="９．returnでDBのデータ&lt;div&gt;返すよ&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="mTkOEDpxK-kG3nHlIUsP-43">
+          <mxGeometry x="0.2343" relative="1" as="geometry">
+            <mxPoint x="-27" y="31" as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
