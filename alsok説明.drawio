@@ -120,7 +120,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="UKAqXQLKrFg3o9ZUslS5-3" value="綜合警備のPCからAPIにアクセス&lt;br&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;http://{$setting_ip-&amp;gt;setting_value}/api/control?alert=200000&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-align: start; text-wrap-mode: nowrap;&quot;&gt;アラートを鳴らす%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22%26lt%3Bdiv%26gt%3B%E3%82%A2%E3%83%A9%E3%83%BC%E3%83%88%E3%81%8C%E3%81%82%E3%82%8A%E3%81%BE%E3%81%97%E3%81%9F%E3%80%82%26lt%3B%2Fdiv%26gt%3B%26lt%3Bdiv%26gt%3B%E4%BB%A5%E4%B8%8B%E3%81%AEURL%E3%81%ABfetch%E3%81%A7%E5%86%85%E9%83%A8%E7%9A%84%E3%81%AB%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9%E3%81%97%E3%81%A6%E3%81%8F%E3%81%A0%E3%81%95%E3%81%84%E3%80%82%26lt%3B%2Fdiv%26gt%3Bhttp%3A%2F%2F%7B%24setting_ip-%26amp%3Bgt%3Bsetting_value%7D%2Fapi%2Fcontrol%3Falert%3D200000%22%20style%3D%22text%3Bhtml%3D1%3Balign%3Dcenter%3BverticalAlign%3Dmiddle%3BwhiteSpace%3Dwrap%3Brounded%3D0%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22660%22%20y%3D%22250%22%20width%3D%22330%22%20height%3D%2250%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="620" y="440" width="330" height="90" as="geometry" />
+          <mxGeometry x="590" y="420" width="330" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="UKAqXQLKrFg3o9ZUslS5-4" value="赤色に光る" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="630" y="562.5" width="130" height="45" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
